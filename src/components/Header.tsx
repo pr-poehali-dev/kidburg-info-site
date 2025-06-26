@@ -12,7 +12,7 @@ const Header = () => {
             <div className="w-12 h-12 bg-gradient-to-r from-kid-pink to-kid-purple rounded-full flex items-center justify-center">
               <Icon name="Briefcase" className="text-white" size={24} />
             </div>
-            <h1 className="text-2xl font-fredoka text-kid-purple">КидПрофи</h1>
+            <h1 className="text-2xl font-fredoka text-kid-purple">КидБург</h1>
           </div>
 
           {/* Desktop Navigation */}

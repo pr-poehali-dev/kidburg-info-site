@@ -20,13 +20,13 @@ const Hero = () => {
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-fredoka text-white mb-6 animate-fade-in">
-            Мир Профессий
-            <span className="block text-kid-yellow">для Детей! 🌟</span>
+            Добро пожаловать в
+            <span className="block text-kid-yellow">КидБург! 🏙️</span>
           </h1>
 
           <p className="text-xl md:text-2xl text-white/90 mb-8 font-open">
-            Откройте своему ребёнку удивительный мир профессий через игру и
-            творчество
+            Настоящий город профессий, где дети становятся взрослыми на один
+            день
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -44,27 +44,27 @@ const Hero = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 bg-white/10 backdrop-blur-sm rounded-3xl p-6">
             <div className="text-center">
               <div className="text-3xl font-fredoka text-kid-yellow mb-2">
-                50+
+                30+
               </div>
-              <div className="text-white/80 text-sm">Профессий</div>
+              <div className="text-white/80 text-sm">Профессий в городе</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-fredoka text-kid-yellow mb-2">
-                1000+
+                5000+
               </div>
-              <div className="text-white/80 text-sm">Довольных детей</div>
+              <div className="text-white/80 text-sm">Юных горожан</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-fredoka text-kid-yellow mb-2">
-                5
+                10
               </div>
-              <div className="text-white/80 text-sm">Лет опыта</div>
+              <div className="text-white/80 text-sm">Лет работы</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-fredoka text-kid-yellow mb-2">
-                24/7
+                15
               </div>
-              <div className="text-white/80 text-sm">Поддержка</div>
+              <div className="text-white/80 text-sm">Городских районов</div>
             </div>
           </div>
         </div>

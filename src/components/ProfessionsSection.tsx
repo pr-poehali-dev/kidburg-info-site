@@ -3,49 +3,49 @@ import Icon from "@/components/ui/icon";
 const professions = [
   {
     id: 1,
-    title: "Доктор",
-    description: "Лечим игрушки и учимся заботиться о здоровье",
-    icon: "Stethoscope",
+    title: "Мэр города",
+    description: "Управляем городом и принимаем важные решения",
+    icon: "Crown",
     color: "kid-pink",
     bgColor: "bg-kid-pink/10",
   },
   {
     id: 2,
-    title: "Повар",
-    description: "Готовим вкусные блюда и изучаем кулинарию",
-    icon: "ChefHat",
+    title: "Банкир",
+    description: "Работаем с деньгами и выдаем кредиты горожанам",
+    icon: "Banknote",
     color: "kid-orange",
     bgColor: "bg-kid-orange/10",
   },
   {
     id: 3,
-    title: "Пожарный",
-    description: "Спасаем город и изучаем правила безопасности",
-    icon: "Flame",
+    title: "Полицейский",
+    description: "Защищаем порядок и безопасность в городе",
+    icon: "Shield",
     color: "kid-teal",
     bgColor: "bg-kid-teal/10",
   },
   {
     id: 4,
-    title: "Учитель",
-    description: "Делимся знаниями и помогаем друзьям учиться",
-    icon: "BookOpen",
+    title: "Журналист",
+    description: "Создаем новости и берем интервью у горожан",
+    icon: "Newspaper",
     color: "kid-purple",
     bgColor: "bg-kid-purple/10",
   },
   {
     id: 5,
-    title: "Строитель",
-    description: "Строим дома мечты из конструктора",
-    icon: "HardHat",
+    title: "Автомеханик",
+    description: "Ремонтируем автомобили в городском автосервисе",
+    icon: "Wrench",
     color: "kid-yellow",
     bgColor: "bg-kid-yellow/10",
   },
   {
     id: 6,
-    title: "Артист",
-    description: "Выступаем на сцене и развиваем творчество",
-    icon: "Music",
+    title: "Радиоведущий",
+    description: "Ведем передачи на городском радио",
+    icon: "Radio",
     color: "kid-green",
     bgColor: "bg-kid-green/10",
   },
@@ -57,11 +57,11 @@ const ProfessionsSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-fredoka text-gray-800 mb-4">
-            Популярные Профессии 🎭
+            Профессии КидБурга 🏢
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Каждая профессия - это увлекательное приключение с новыми знаниями и
-            навыками
+            В нашем городе более 30 профессий! Каждый ребенок может стать кем
+            угодно
           </p>
         </div>
 
@@ -87,7 +87,7 @@ const ProfessionsSection = () => {
               <button
                 className={`bg-${profession.color} text-white font-semibold py-2 px-6 rounded-full hover:shadow-lg transform hover:scale-105 transition-all duration-300`}
               >
-                Попробовать
+                Устроиться на работу
               </button>
             </div>
           ))}
@@ -95,8 +95,8 @@ const ProfessionsSection = () => {
 
         <div className="text-center mt-12">
           <button className="kid-button text-lg px-8 py-4 flex items-center gap-2 mx-auto">
-            <Icon name="Plus" size={20} />
-            Смотреть все профессии
+            <Icon name="Building" size={20} />
+            Карта города
           </button>
         </div>
       </div>

@@ -10,61 +10,61 @@ const Footer = () => {
               <div className="w-10 h-10 bg-gradient-to-r from-kid-pink to-kid-purple rounded-full flex items-center justify-center">
                 <Icon name="Briefcase" className="text-white" size={20} />
               </div>
-              <h3 className="text-xl font-fredoka">КидПрофи</h3>
+              <h3 className="text-xl font-fredoka">КидБург</h3>
             </div>
             <p className="text-gray-400 text-sm">
-              Мир профессий для детей - место, где мечты становятся реальностью
-              через игру и обучение.
+              Город профессий для детей - место, где каждый ребенок может стать
+              взрослым на один день и попробовать любую профессию.
             </p>
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Профессии</h4>
+            <h4 className="font-semibold mb-4">Районы города</h4>
             <ul className="space-y-2 text-sm text-gray-400">
               <li>
                 <a href="#" className="hover:text-kid-pink transition-colors">
-                  Доктор
+                  Деловой центр
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-kid-pink transition-colors">
-                  Повар
+                  Медицинский район
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-kid-pink transition-colors">
-                  Пожарный
+                  Служба безопасности
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-kid-pink transition-colors">
-                  Учитель
+                  Творческий квартал
                 </a>
               </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Компания</h4>
+            <h4 className="font-semibold mb-4">Информация</h4>
             <ul className="space-y-2 text-sm text-gray-400">
               <li>
                 <a href="#" className="hover:text-kid-pink transition-colors">
-                  О нас
+                  Правила города
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-kid-pink transition-colors">
-                  Программы
+                  Цены и билеты
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-kid-pink transition-colors">
-                  Отзывы
+                  Отзывы родителей
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-kid-pink transition-colors">
-                  Контакты
+                  Как добраться
                 </a>
               </li>
             </ul>
@@ -97,7 +97,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © 2024 КидПрофи. Все права защищены. Создано с ❤️ для детей.
+            © 2024 КидБург. Все права защищены. Город профессий для детей.
           </p>
         </div>
       </div>

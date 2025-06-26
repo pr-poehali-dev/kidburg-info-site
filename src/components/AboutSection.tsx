@@ -7,13 +7,14 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl font-fredoka text-gray-800 mb-6">
-              О КидПрофи 🌈
+              Что такое КидБург? 🏙️
             </h2>
 
             <p className="text-lg text-gray-600 mb-6">
-              Мы создали уникальное пространство, где дети от 4 до 16 лет могут
-              погрузиться в мир взрослых профессий через игру, творчество и
-              обучение.
+              КидБург — это интерактивный город профессий для детей от 4 до 14
+              лет. Здесь дети не просто играют, а живут настоящей взрослой
+              жизнью: работают, зарабатывают деньги, тратят их и принимают
+              серьезные решения.
             </p>
 
             <div className="space-y-4 mb-8">
@@ -23,10 +24,10 @@ const AboutSection = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-800 mb-1">
-                    Безопасная среда
+                    Настоящий город
                   </h4>
                   <p className="text-gray-600">
-                    Все активности проходят под присмотром опытных педагогов
+                    Улицы, здания, транспорт — все как в реальном городе
                   </p>
                 </div>
               </div>
@@ -37,10 +38,10 @@ const AboutSection = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-800 mb-1">
-                    Развивающие программы
+                    Собственная валюта
                   </h4>
                   <p className="text-gray-600">
-                    Каждая профессия даёт новые знания и практические навыки
+                    Дети зарабатывают "кидбурги" и учатся распоряжаться деньгами
                   </p>
                 </div>
               </div>
@@ -51,18 +52,18 @@ const AboutSection = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-800 mb-1">
-                    Командная работа
+                    Реальные навыки
                   </h4>
                   <p className="text-gray-600">
-                    Дети учатся работать в команде и общаться
+                    Каждая профессия дает практические знания и умения
                   </p>
                 </div>
               </div>
             </div>
 
             <button className="kid-button flex items-center gap-2">
-              <Icon name="Calendar" size={20} />
-              Записаться на экскурсию
+              <Icon name="Ticket" size={20} />
+              Купить билет в город
             </button>
           </div>
 
@@ -71,26 +72,26 @@ const AboutSection = () => {
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
                   <Icon name="Clock" className="mx-auto mb-2" size={32} />
-                  <div className="font-fredoka text-2xl mb-1">2-4 часа</div>
-                  <div className="text-sm opacity-90">Длительность сессии</div>
+                  <div className="font-fredoka text-2xl mb-1">4 часа</div>
+                  <div className="text-sm opacity-90">Время в городе</div>
                 </div>
 
                 <div className="text-center">
                   <Icon name="Users" className="mx-auto mb-2" size={32} />
-                  <div className="font-fredoka text-2xl mb-1">8-12</div>
-                  <div className="text-sm opacity-90">Детей в группе</div>
+                  <div className="font-fredoka text-2xl mb-1">100+</div>
+                  <div className="text-sm opacity-90">Детей одновременно</div>
                 </div>
 
                 <div className="text-center">
-                  <Icon name="Award" className="mx-auto mb-2" size={32} />
-                  <div className="font-fredoka text-2xl mb-1">Сертификат</div>
-                  <div className="text-sm opacity-90">После завершения</div>
+                  <Icon name="Coins" className="mx-auto mb-2" size={32} />
+                  <div className="font-fredoka text-2xl mb-1">Кидбурги</div>
+                  <div className="text-sm opacity-90">Местная валюта</div>
                 </div>
 
                 <div className="text-center">
-                  <Icon name="Gift" className="mx-auto mb-2" size={32} />
-                  <div className="font-fredoka text-2xl mb-1">Подарки</div>
-                  <div className="text-sm opacity-90">За участие</div>
+                  <Icon name="Camera" className="mx-auto mb-2" size={32} />
+                  <div className="font-fredoka text-2xl mb-1">Фото</div>
+                  <div className="text-sm opacity-90">Память на всю жизнь</div>
                 </div>
               </div>
             </div>
